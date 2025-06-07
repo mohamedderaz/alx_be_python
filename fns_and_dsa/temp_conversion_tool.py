@@ -12,7 +12,7 @@ if type=="C":
     convert_to_fahrenheit(temp)
 elif type=="F":
     convert_to_celsius(temp)
-
+else:print("enter a valid temp and unit")
 
 
     
