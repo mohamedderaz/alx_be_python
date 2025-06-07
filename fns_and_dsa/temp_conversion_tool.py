@@ -17,11 +17,8 @@ def is_valid_temperature(value):
 def is_valid_unit(unit):
     return unit.upper() in ["C", "F"]
 
-temp = int(input("Enter the temperature to convert: "))
-type= str(input("Is this temperature in Celsius or Fahrenheit? (C/F):"))
-# مدخلات من المستخد
-
-# التحقق من المدخلات
+temp = input("Enter the temperature to convert: ")
+type= input("Is this temperature in Celsius or Fahrenheit? (C/F):")
 if is_valid_temperature(temp) and is_valid_unit(type):
     temperature = float(temp)
     unit = type.upper()
